@@ -12,7 +12,7 @@ public class HelloWorld {
         System.out.println("Welcome to your future, " + WorldLibrary.getName());
         System.out.println("I live on a planet named " + theWorld.getPlanetName());
 
-        theWorld.setPlanetName("Mars");     // if I won't re-use the Earth again
+        theWorld.setPlanetName("Mars");     // if I won't re-use "Earth" again, otherwise you should create a new object
         System.out.println("But now I've decided to go to " + theWorld.getPlanetName());
 
     }
