@@ -1,4 +1,4 @@
-package lesson4.homework;
+package lesson4_homework;
 
 import java.util.Arrays;
 import java.util.List;
@@ -56,7 +56,7 @@ public class myAtoi {
         } else if (numberString.length() > 14 && numberString.charAt(0) == '-') {
             stringToLong = (int) (Math.pow(-2, 31));
         } else if (numberString.length() > 14) {
-            stringToLong = (int) (Math.pow(2, 31)) - 1;
+            stringToLong = (int) (Math.pow(2, 31) - 1);
         }
 
         return stringToLong;
