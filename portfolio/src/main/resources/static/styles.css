@@ -1,0 +1,31 @@
+/* i {
+color: red;
+} */
+
+#unique-element {
+background-color: #AABBCC;
+}
+
+.first-class {
+color: rgba(134, 250, 250, 0.5;
+font-size:50;
+
+}
+
+.lesson {
+font-family: 'Courier New', monospace;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-bottom: 2px solid #FFEFBA;
+}
+
+.name {
+
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!--  allows to combine html and java  -->
+    <title> Santa Kolosovska </title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+body {
+  display: grid;
+  grid-template-areas:
+    "header1 header1 header2 header2"
+    "article1 article2 article3 article4"
+    "article5 article6 article7 article8"
+    "footer1 footer1 footer2 footer2";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  height: 100vh;
+  margin: 0;
+    background: #B8255F;
+    background: linear-gradient(to bottom, #B8255F, #158FAD);
+  }
+#pageHeader1 {
+  grid-area: header1;
+  text-align: center;
+  font-family: 'Papyrus';
+  font-size: 30;
+  padding-top: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+#pageHeader2 {
+  padding-top: 40px;
+  padding-right: 200px;
+  grid-area: header2;
+  text-align: center;
+}
+#pageFooter1 {
+  grid-area: footer1;
+}
+#pageFooter2 {
+  grid-area: footer2;
+  text-align: right;
+}
+
+
+#mainArticle1 {
+  grid-area: article1;
+  text-align: center;
+  font-family: 'Papyrus';
+  text-size: 50;
+  }
+  #mainArticle2 {
+  grid-area: article2;
+  text-align: center;
+  font-family: 'Papyrus';
+  }
+  #mainArticle3 {
+  grid-area: article3;
+  text-align: center;
+  font-family: 'Papyrus';
+  }
+  #mainArticle4 {
+  grid-area: article4;
+  text-align: center;
+  font-family: 'Papyrus';
+  }
+  #mainArticle5 {
+  grid-area: article5;
+  text-align: center;
+  font-family: 'Papyrus';
+  }
+  #mainArticle6 {
+  grid-area: article6;
+  text-align: center;
+  font-family: 'Papyrus';
+  }
+  #mainArticle7 {
+  grid-area: article7;
+  text-align: center;
+  font-family: 'Papyrus';
+  }
+  #mainArticle8 {
+  grid-area: article8;
+  text-align: center;
+  font-family: 'Papyrus';
+  }
+
+header, footer, article {
+  padding: 20px;
+}
+    </style>
+</head>
+
+
+<body>
+
+<header id="pageHeader1">
+    <div class="name">
+    <b>Santa Kolosovska</b>
+    </div>
+
+    <i> Some text about something that is me. Some text about something that is me.
+        Some text about something that is me. Some text about something that is me.
+        Some text about something that is me. Some text about something that is me. </i>
+
+</header>
+
+<header id="pageHeader2">
+    <img id="image"
+         width="300"
+         src="4D131073-F38F-4C61-9234-19051025656A.JPG"/>
+</header>
+
+<article id="mainArticle1">
+    <div> <img src="IMG-2742.jpg" width="200" /> </div>
+    <div> <b class="lesson"> Lesson 1 </b> </div>
+    <div> <i class="whatHaveWe"> What have we learned </i> </div>
+</article>
+
+<article id="mainArticle2">
+    <div> <img src="IMG-2742.jpg" width="200" /> </div>
+    <div> <b class="lesson"> Lesson 2 </b> </div>
+    <div> <i class="whatHaveWe"> What have we learned </i> </div>
+</article>
+
+<article id="mainArticle3">
+    <div> <img src="IMG-2742.jpg" width="200" /> </div>
+    <div> <b class="lesson"> Lesson 3 </b> </div>
+    <div> <i class="whatHaveWe"> What have we learned </i> </div>
+</article>
+
+<article id="mainArticle4">
+    <div> <img src="IMG-2742.jpg" width="200" /> </div>
+    <div> <b class="lesson"> Lesson 4 </b> </div>
+    <div> <i class="whatHaveWe"> What have we learned </i> </div>
+</article>
+<article id="mainArticle5">
+    <div> <img src="IMG-2742.jpg" width="200" /> </div>
+    <div> <b class="lesson"> Lesson 5 </b> </div>
+    <div> <i class="whatHaveWe"> What have we learned </i> </div>
+</article>
+<article id="mainArticle6">
+    <div> <img src="IMG-2742.jpg" width="200" /> </div>
+    <div> <b class="lesson"> Lesson 6 </b> </div>
+    <div> <i class="whatHaveWe"> What have we learned </i> </div>
+</article>
+<article id="mainArticle7">
+    <div> <img src="IMG-2742.jpg" width="200" /> </div>
+    <div> <b class="lesson"> Lesson 7 </b> </div>
+    <div> <i class="whatHaveWe"> What have we learned </i> </div>
+</article>
+<article id="mainArticle8">
+    <div> <img src="IMG-2742.jpg" width="200" /> </div>
+    <div> <b class="lesson"> Lesson 8 </b> </div>
+    <div> <i class="whatHaveWe"> What have we learned </i> </div>
+</article>
+
+
+<footer id="pageFooter1">
+    SGT JAVA 2
+</footer>
+
+<footer id="pageFooter2">
+    <a href="https://github.com/SantaKolosovska">
+        <button>my GitHub</button>
+    </a>
+</footer>
+
+</body>
+
+
+<!--<p th:text="${myName}"></p>-->
+</html>

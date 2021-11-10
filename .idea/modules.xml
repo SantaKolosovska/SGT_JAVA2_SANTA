@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SGT_JAVA2_SANTA.iml" filepath="$PROJECT_DIR$/SGT_JAVA2_SANTA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecommerce/ecommerce.iml" filepath="$PROJECT_DIR$/ecommerce/ecommerce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-project/test-project.iml" filepath="$PROJECT_DIR$/test-project/test-project.iml" />
     </modules>
   </component>
 </project>
