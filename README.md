@@ -1,8 +1,10 @@
 Work done during Accenture She Goes Tech Java Bootcamp from October 2021 to January 2022.
 The main focus of the course was java, but we learned other things as well (web 
 development (SpringBoot, Angular, HTML, CSS, XML, JSON)). 
-We started with going over basic things we already had learned in previous course and 
-then went on to learning new material. 
+We started with reviewing basic things we already had learned in previous course and 
+then went on to learning new material. It's a bit messy but might be useful in the future.
+
+-------------------------
 
 In src directory there are following packages: 
 
@@ -37,6 +39,7 @@ lesson22 - enums, generics, runtime and compilation errors //
 
 lv.santa.rocketscience - some OOP practice //  
 
+----------------------------
 
 Other relevant packages in main directory: 
 
