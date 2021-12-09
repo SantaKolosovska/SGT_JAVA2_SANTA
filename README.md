@@ -1,6 +1,6 @@
 Work done during Accenture She Goes Tech Java Bootcamp from October 2021 to January 2022.
 The main focus of the course was java, but we learned other things as well (web 
-development (SpringBoot, Angular, HTML, CSS), XML, mobile development). 
+development (SpringBoot, Angular, HTML, CSS, XML, JSON)). 
 We started with going over basic things we already had learned in previous course and 
 then went on to learning new material. 
 
