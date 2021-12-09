@@ -44,5 +44,7 @@ lv.santa.rocketscience - some OOP practice //
 Other relevant packages in main directory: 
 
 angular-playground - learning angular // 
-ecommerce - learning SpringBoot // 
+
+ecommerce - learning SpringBoot //
+
 portfolio - creating my own portfolio website using SpringBoot
